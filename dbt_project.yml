@@ -1,0 +1,12 @@
+name: 'my_transformation_project'
+version: '1.0.0'
+config-version: 2
+
+profile: 'my_transformation_project'
+
+model-paths: ["models"]
+
+models:
+  my_transformation_project:
+    fix_discounts_timestamps:
+      materialized: view

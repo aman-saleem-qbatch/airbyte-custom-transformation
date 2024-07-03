@@ -1,0 +1,15 @@
+my_transformation_project:
+  target: dev
+  outputs:
+    dev:
+      type: msssql
+      host: mssql-poc-u8681.vm.elestio.app
+      user: sa
+      password: XcO3bDsymu-A746-WA8rbkhX!2P_G
+      port: 18698
+      dbname: Square Dev
+      schema: Square Dev
+      threads: 1
+      keepalives_idle: 0
+      connect_timeout: 10
+      search_path: public
